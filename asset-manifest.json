@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/employeersCount/static/css/main.5337ff57.css",
+    "main.js": "/employeersCount/static/js/main.5375fb43.js",
+    "index.html": "/employeersCount/index.html",
+    "main.5337ff57.css.map": "/employeersCount/static/css/main.5337ff57.css.map",
+    "main.5375fb43.js.map": "/employeersCount/static/js/main.5375fb43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5337ff57.css",
+    "static/js/main.5375fb43.js"
+  ]
+}
