@@ -8,10 +8,18 @@
 }
 
 .add-form {
+    display: flex;
     margin-top: 20px;
+
+    @media screen and (max-width: 575px) {
+        flex-direction: column;
+        gap: 15px;
+    }
     input {
-        width: 350px;
-        margin-right: 20px;
+        width: 100%;
+        @media screen and (min-width: 575px) {
+            max-width: 350px;
+            margin-right: 20px;
+        }
     }
 }
-

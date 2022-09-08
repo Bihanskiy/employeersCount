@@ -12,7 +12,7 @@ const AppFilter = (props) => {
         const clazz = (props.filter === name) ? "btn-light" : "btn-outline-light";
         return (
             <button
-                className={`btn ${clazz}`}
+                className={`btn ${clazz} rounded-0`}
                 type="button"
                 key={name}
                 onClick={() => props.onSelectFilter(name)}>
@@ -21,7 +21,7 @@ const AppFilter = (props) => {
         )
     })
     return (
-        <div className="btn-group">
+        <div className="btn-group flex-wrap">
             {buttons}
         </div>
     )
